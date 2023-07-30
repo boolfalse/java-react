@@ -9,6 +9,13 @@
 
 
 
+#### Setup:
+
+- Setup _.env_ credentials as described in _.env.example_ in _src/main/resources/_ folder. 
+
+
+
+
 #### Resources:
 
 - freeCodeCamp video: [Full Stack Development with Java Spring Boot, React, and MongoDB – Full Course](https://www.youtube.com/watch?v=5PdEmeopJVQ)
@@ -16,6 +23,7 @@
 - [Java JDK download](https://www.oracle.com/java/technologies/downloads/)
 - [Spring Initializr](https://start.spring.io/)
 - [Spring backend](https://github.com/fhsinchy/movieist)
+- Install [me.paulschwarz/spring-dotenv](https://mvnrepository.com/artifact/me.paulschwarz/spring-dotenv)
 
 
 
