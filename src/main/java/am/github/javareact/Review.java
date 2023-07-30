@@ -19,4 +19,12 @@ public class Review {
 
     // additional fields
     private String body;
+
+    // as we have NoArgsConstructor, and we cannot set some argument
+    // as an argument in the constructor to create a new instance,
+    // so we need to have custom constructor part,
+    // which will initialize the field that we want
+    public Review(String body) {
+        this.body = body;
+    }
 }
