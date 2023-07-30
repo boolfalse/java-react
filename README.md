@@ -18,6 +18,7 @@
 
 #### Resources:
 
+- Postman [Collection](https://documenter.getpostman.com/view/1747137/2s9XxtxFaS)
 - freeCodeCamp video: [Full Stack Development with Java Spring Boot, React, and MongoDB – Full Course](https://www.youtube.com/watch?v=5PdEmeopJVQ)
 - freeCodeCamp article: [Full Stack Development with MongoDB, Java, and React](https://www.freecodecamp.org/news/full-stack-development-with-mongodb-java-and-react/)
 - [Java JDK download](https://www.oracle.com/java/technologies/downloads/)
