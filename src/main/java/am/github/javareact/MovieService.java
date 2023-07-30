@@ -20,12 +20,16 @@ public class MovieService {
         return movieRepository.findAll();
     }
 
-    // the Mongo findById method may return null
-    // so the return type must be aware about that
-    // that is why we need to use <Optional<Movie>> instead of <Movie>
-    // actually the IDE will say about that
-    public Optional<Movie> getOne(ObjectId id) {
-        return movieRepository.findById(id);
+//    // the Mongo findById method may return null
+//    // so the return type must be aware about that
+//    // that is why we need to use <Optional<Movie>> instead of <Movie>
+//    // actually the IDE will say about that
+//    public Optional<Movie> getOne(ObjectId id) {
+//        return movieRepository.findById(id);
+//    }
+
+    public Optional<Movie> getOne(String imdbId) {
+        return movieRepository.findMovieByImdbId(imdbId);
     }
 
 }
