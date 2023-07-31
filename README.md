@@ -11,7 +11,16 @@
 
 #### Setup:
 
-- Setup _.env_ credentials as described in _.env.example_ in _src/main/resources/_ folder. 
+- Setup _.env_ credentials as described in _.env.example_ in _src/main/resources/_ folder.
+
+- Install client dependencies:
+```shell
+npm install --prefix=client/
+```
+- Run the client
+```shell
+npm run start --prefix=client/
+```
 
 
 
