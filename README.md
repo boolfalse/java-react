@@ -55,7 +55,8 @@ npm run start --prefix=client/
 - [Java JDK download](https://www.oracle.com/java/technologies/downloads/)
 - [Spring Initializr](https://start.spring.io/)
 - [Spring backend](https://github.com/fhsinchy/movieist)
-- Install [me.paulschwarz/spring-dotenv](https://mvnrepository.com/artifact/me.paulschwarz/spring-dotenv)
+- [React frontend](https://github.com/GavinLonDigital/movie-gold-v1/)
+- Installation example on: [me.paulschwarz/spring-dotenv](https://mvnrepository.com/artifact/me.paulschwarz/spring-dotenv)
 - [How to Install Maven on Linux](https://www.digitalocean.com/community/tutorials/install-maven-linux-ubuntu)
 
 
