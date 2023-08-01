@@ -8,12 +8,12 @@ import React from 'react'
 const Trailer = () => {
 
     let params = useParams();
-    let key = params.ytTrailerId;
+    let key = params.ytVideoId;
 
     return (
         <div className="react-player-container">
             {
-                key && <ReactPlayer controls="true"
+                key && <ReactPlayer controls={true}
                                     playing={true}
                                     url={`https://www.youtube.com/watch?v=${key}`}
                                     width='100%'
