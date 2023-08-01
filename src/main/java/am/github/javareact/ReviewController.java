@@ -3,6 +3,7 @@ package am.github.javareact;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +21,9 @@ public class ReviewController {
     private ReviewService reviewService;
 
     @PostMapping
+    @CrossOrigin(origins = {
+            "http://localhost:3000"
+    })
     public ResponseEntity<Review> create(@RequestBody Map<String, String> payload) {
         String imdbId = payload.get("imdbId");
         String body = payload.get("body");
